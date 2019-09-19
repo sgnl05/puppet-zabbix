@@ -68,7 +68,7 @@ end
 group :release do
   gem 'github_changelog_generator',  :require => false, :git => 'https://github.com/github-changelog-generator/github-changelog-generator'
   gem 'puppet-blacksmith',           :require => false
-  gem 'voxpupuli-release',           :require => false, :git => 'https://github.com/voxpupuli/voxpupuli-release-gem'
+  gem 'voxpupuli-release',           :require => false
   gem 'puppet-strings', '>= 2.2',    :require => false
 end
 
